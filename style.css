@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-image: inherit;
+  }
+  
+  li {
+    float: left;
+  }
+
+  .active {
+    background-color: #485846;
+  }
+
+  .image{
+      border-radius: 40%;
+  }
+
+  .name{
+    font-size: 70px;
+    color: red;
+    opacity: 1;
+  }
+
+  body{
+      color: white;
+      background-image: url("./images/Capture.PNG");
+  }
+
+  .im{
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+  }
+
+  .size{
+    text-align: center;
+    
+    font-size: 60px;
+}
+
+.shadow{
+  text-shadow: 2px 2px #ff0000;
+}
+
+.shadow:hover{
+  text-shadow: 2px 2px lightgreen;
+}
+
+
+  .connecter{
+    border-radius: 50%;
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: blue;
+    background-color: whitesmoke;
+    text-decoration: none;
+  }
